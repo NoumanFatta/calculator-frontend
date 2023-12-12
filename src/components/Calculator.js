@@ -197,7 +197,7 @@ const Calculator = () => {
     const fetchHistory = async (collection, token) => {
       try {
         const response = await axios.get(
-          `https://calculator-backend-snowy.vercel.app/${collection}`,
+          `${process.env.React_APP_CLOUD_FUNCTION_BASE_URL}/${collection}`,
           {
             headers: {
               "Content-Type": "application/json",
