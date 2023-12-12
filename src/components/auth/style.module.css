@@ -1,0 +1,89 @@
+.auth-screen {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .auth-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .option {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .auth_button {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .google {
+    background-color: #4285f4;
+  }
+  
+  .email {
+    background-color: #4caf50;
+  }
+  
+  .auth-links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .auth-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .go-to-login{
+    text-align: center;
+    text-decoration: none;
+    color: #4caf50;
+    border: solid 1px #4caf50;
+    padding: 10px;
+    transition: all 0.5s ease;    
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .go-to-login:hover{
+    background-color: #4caf50;
+    color: #fff;
+    border: solid 1px #4caf50;
+  }
+  .already-have-acc-text{
+    text-align: center;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;    
+    position: absolute;
+    bottom: -10px;
+  }
