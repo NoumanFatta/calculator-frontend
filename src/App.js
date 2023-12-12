@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import ProjRoutes from './routes/routes';
 
-
+console.log(process.env.React_APP_apiKey)
 function App() {
   return (
     <BrowserRouter>
